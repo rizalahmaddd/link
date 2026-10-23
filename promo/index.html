@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Link Promo 16:9</title>
+<link rel="stylesheet" href="/mg/fonts/fonts.css">
+<link rel="stylesheet" href="/mg/engine/mg.css">
+<link rel="stylesheet" href="/mg/engine/ui.css">
+<link rel="stylesheet" href="style.css">
+<script src="/mg/engine/vendor/gsap.min.js"></script>
+<script src="/mg/engine/vendor/ScrambleTextPlugin.min.js"></script>
+<script src="/mg/engine/vendor/qrcode.js"></script>
+<script src="/mg/engine/mg.js"></script>
+</head>
+<body>
+<div id="stage">
+  <div id="bg" class="full"></div>
+  <div id="bgAlt" class="full"></div>
+  <div id="fx" class="full"><div class="grid-flat"></div><div class="blob" id="b1"></div><div class="blob" id="b2"></div></div>
+  <div id="dust" class="full"></div>
+  <div id="ghost" class="ghost-text">LINK</div>
+  <div id="streak" class="streak"></div>
+
+  <div id="hook" class="scene">
+    <div class="hk" id="hk0"><div class="hkt display">Link <em>kepanjangan.</em></div><div class="hksub"><div class="urlrun" id="urlrun">https://tokoku.id/produk/kategori/baju-koko-pria-lengan-panjang-putih-ukuran-xl?utm_source=instagram&amp;utm_medium=story&amp;utm_campaign=ramadan-sale&amp;ref=abc123xyz</div></div></div>
+    <div class="hk" id="hk1"><div class="hkt display">Klik nggak <em>kehitung.</em></div><div class="hksub"><div class="hkpill"><svg class="icon"><use href="/mg/visual/icons/lucide-sprite.svg#eye"/></svg>Total kunjungan <b>???</b></div></div></div>
+    <div class="hk" id="hk2"><div class="hkt display">Iklan? <em>Nol.</em></div><div class="hksub"><div class="hkpill"><svg class="icon"><use href="/mg/visual/icons/lucide-sprite.svg#trending-up"/></svg>Pendapatan sponsor <b>Rp0</b></div></div></div>
+  </div>
+
+  <div id="logo" class="scene center">
+    <div style="position:relative"><div class="ringFx"></div><div class="ringFx"></div><div id="logoTile"><img src="assets/logo.svg" alt=""></div></div>
+    <div id="wordmark" class="display">Link</div>
+    <div id="tagline">Pendekin. Pasang sponsor. Pantau.</div>
+  </div>
+
+  <div id="heads"></div>
+
+  <div class="persp" id="devs"><div class="rig">
+    <div class="dw" id="brW"><div id="br" class="browser">
+      <div class="bar"><i></i><i></i><i></i><span id="urlbar">link.solusikoding.com</span></div>
+      <div class="view" id="view">
+        <div class="web" id="w1"></div>
+        <div class="web" id="w2"></div>
+        <div class="web" id="w3"></div>
+        <div id="cur"><svg viewBox="0 0 24 24"><path d="M3 2 L3 18.5 L7.6 14.6 L10.6 21.4 L13.4 20.2 L10.5 13.6 L16.6 13.2 Z" fill="#fff" stroke="#09090b" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+        <div id="rip"></div>
+      </div>
+    </div></div>
+    <div class="dw" id="phW"><div id="ph" class="phone"><div class="screen"></div><div class="island"></div><div class="glare"></div></div></div>
+  </div></div>
+
+  <div id="callouts"></div>
+
+  <div id="cta" class="scene">
+    <div class="ctaL">
+      <div class="ctaBrand"><div class="logoS"><img src="assets/logo.svg" alt=""></div><div class="name display">Link</div></div>
+      <div class="line">Pendekin. Pasang sponsor. <em>Pantau.</em></div>
+      <div class="btn-cta inv"><small><svg class="icon" viewBox="0 0 24 24" style="font-size:30px"><use href="/mg/visual/icons/lucide-sprite.svg#phone"/></svg>Custom app sesuai kebutuhanmu</small><b>0857-7777-5477</b></div>
+      <div class="tags">Tambah cepat · Sponsor · Laporan publik · QR dinamis</div>
+    </div>
+    <div class="demo"><div class="qr"></div><div class="dtx"><small>Coba sekarang</small><b>link.solusikoding.com</b><span>Buka di browser HP atau laptop</span></div></div>
+  </div>
+
+  <div id="bolt"><svg viewBox="0 0 100 100"><path d="M54 8 L20 56 L47 56 L40 92 L80 42 L53 42 Z"/></svg></div>
+
+  <div class="hud" id="hud">
+    <div class="brand-chip"><div class="logo"><img src="assets/logo.svg" alt=""></div><span>Link</span></div>
+    <div class="contact-pill"><div class="ic"><svg class="icon" viewBox="0 0 24 24" style="font-size:22px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><span>0857-7777-5477</span></div>
+  </div>
+  <div class="segs" id="segs"><i><b></b></i><i><b></b></i><i><b></b></i><i><b></b></i></div>
+  <div class="noise"></div>
+  <div class="vignette"></div>
+  <div id="flash" class="flash"></div>
+</div>
+
+<script src="screens.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

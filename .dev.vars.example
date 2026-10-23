@@ -1,0 +1,6 @@
+# Secret Variables untuk Cloudflare Workers Lokal
+JWT_SECRET=your_super_secret_jwt_hmac_key_min_32_chars
+RESEND_API_KEY=re_your_resend_api_key_here
+RESEND_FROM_EMAIL=Link <link@solusikoding.com>
+APP_URL=http://localhost:5173
+ENVIRONMENT=development
